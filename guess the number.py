@@ -1,6 +1,6 @@
 import random
 number = random.randint(1, 10)
-# digit = int(input("Enter Number : "))
+digit = int(input("Enter Number : "))
 #
 # while number != digit:
 #     print()
