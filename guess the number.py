@@ -2,7 +2,7 @@ import random
 number = random.randint(1, 10)
 digit = int(input("Enter Number : "))
 #
-# while number != digit:
+while number != digit:
 #     print()
 #     if digit < number :
 #         print("digit is low")
