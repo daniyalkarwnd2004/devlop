@@ -1,5 +1,5 @@
 # This file does the work of censorship
-Finds the entry and compares it with the elements in the list. If these elements are the same as the elements in the list, it prints a star
+# Finds the entry and compares it with the elements in the list. If these elements are the same as the elements in the list, it prints a star
 
 def censorship(words):
     print("****-------censorship-------****")
