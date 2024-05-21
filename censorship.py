@@ -1,8 +1,4 @@
-# This file does the work of censorship
-# Finds the entry and compares it with the elements in the list. If these elements are the same as the elements in the list, it prints a star
-
-def censorship(words):
-    print("****-------censorship-------****")
+def cen_gen(words):
     w = None
     while True:
         word = yield w
@@ -12,7 +8,7 @@ def censorship(words):
             w = "*" * len(word)
 
 
-gn = censorship(["donkey", "cow", "unconscious", "fool"])
-next(gn)
-print(gn.send("ali"))
-print(gn.send("fool"))
+gen = cen_gen(["caw", "make", "sheep"])
+next(gen)
+print(gen.send("ali"))
+print(gen.send("caw"))
